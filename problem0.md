@@ -2,7 +2,15 @@
 
 ## Problem Description
 
-Write a program that reads in a sentence of up to 100 characters and outputs the sentence with spacing corrected and with letters corrected for capitalization. The program should compress multiple blanks into a single blank, start the sentence with an uppercase letter, and convert any other uppercase letters to lowercase. Line breaks should be treated as blanks. The sentence should end with a period, and there should be no other periods within the sentence.
+Write a program that reads in a sentence of up to 100 characters and outputs the sentence with spacing 
+corrected and with letters corrected for capitalization. In other words, in the output sentence, all strings 
+of two or more blanks should be compressed to a single blank. The sentence should start with an 
+uppercase letter but should contain no other uppercase letters. Do not worry about proper names; if their 
+first letters are changed to lowercase, that is acceptable. 
+
+Treat a line break as if it were a blank, in the sense that a line break and any number of blanks are 
+compressed to a single blank. Assume that the sentence ends with a period and contains no other 
+periods. 
 
 ## Input
 <pre> the         Answer     to   life,      the Universe,  and everything IS 42. </pre>
